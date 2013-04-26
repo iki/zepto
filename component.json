@@ -1,0 +1,20 @@
+{
+  "name"        : "zepto",
+  "description" : "Bower/Component friendly fork of zepto sources, not compiled together.",
+  "version"     : "1.0.1",
+  "main"        : "src/zepto.js",
+  "ignore": [
+    "examples",
+    "script",
+    "test",
+    "vendor",
+    ".*",
+    "CONTRIBUTING.md",
+    "make"
+  ],
+  "dependencies": {
+  },
+  "scripts": [
+    "src/zepto.js"
+  ]
+}

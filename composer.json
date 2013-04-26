@@ -1,0 +1,38 @@
+{
+  "name": "iki/zepto",
+  "description" : "Bower/Component friendly fork of zepto sources, not compiled together.",
+  "type": "component",
+  "keywords": [
+    "JavaScript"
+  ],
+  "homepage": "http://zeptojs.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Fuchs",
+      "homepage": "https://github.com/madrobby"
+    }
+  ],
+  "require": {
+      "robloach/component-installer": "*"
+  },
+  "ignore": [
+    "examples",
+    "script",
+    "test",
+    "vendor",
+    ".*",
+    "CONTRIBUTING.md",
+    "make"
+  ],
+  "extra": {
+    "component": {
+      "scripts": [
+        "src/zepto.js"
+      ],
+      "shim": {
+        "exports": "Zepto"
+      }
+    }
+  }
+}
